@@ -1,0 +1,21 @@
+{
+  "name": "flash-usdt-bot",
+  "version": "1.0.0",
+  "description": "Can you develop flash USDT?",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx hardhat ignition deploy ignition/modules/*.ts --network localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.9",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  }
+}
